@@ -48,3 +48,43 @@ p{
 .middle-section h1{
     font-size: 40px;
 }
+.bottom-child{
+    display: flex;
+}
+.semi-half-width{
+    width: 90%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 10px;
+    padding: 10px 20px 80px 20px;
+}
+#experience-item{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-stack-experience{
+    border-left: 8px solid;
+    border-image: linear-gradient(indianred, tomato);
+    border-image-slice: 1;
+}
+.semi-half-width h1{
+    font-size: 40px;
+    font-weight: 600; 
+}
+.bottom-section{
+    margin-top: 160px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.bottom-section h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+footer p{
+    text-align: center;
+    color: gray;
+    margin-top: 160px;
+}
