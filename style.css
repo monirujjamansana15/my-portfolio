@@ -2,15 +2,49 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+p{
+    color: gray;
+    text-align: justify;
+}
 .top-section{
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .top-section h1{
     font-size: 50px;
 }
 .half-width{
     width: 50%;
+    margin: 10px 80px;
 }
 .half-width img{
-    width: 100%;
+    width: 90%;
+}
+.half-width h3{
+    font-weight: 600;
+}
+.devloper-name{
+    color: orange;
+}
+.link-button{
+    color: cornsilk;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    background-image: linear-gradient(tomato, indianred);
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+.middle-section{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.middle-gap{
+    margin-top: 160px;
+}
+.middle-section h1{
+    font-size: 40px;
 }
